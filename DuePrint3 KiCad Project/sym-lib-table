@@ -4,4 +4,5 @@
   (lib (name "SN74AHCT125DR")(type "KiCad")(uri "${KIPRJMOD}/SN74AHCT125DR.kicad_sym")(options "")(descr ""))
   (lib (name "SN74LVC245ADWR")(type "KiCad")(uri "${KIPRJMOD}/SN74LVC245ADWR.kicad_sym")(options "")(descr ""))
   (lib (name "DuePrint3")(type "KiCad")(uri "${KIPRJMOD}/DuePrint3.kicad_sym")(options "")(descr ""))
+  (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/New_Library.kicad_sym")(options "")(descr ""))
 )

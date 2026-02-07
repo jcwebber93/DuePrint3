@@ -7,30 +7,37 @@
 #include "SimpleFOCDrivers.h"
 #include "SimpleDCMotor.h"
 
+#define LED_PIN PC13
+volatile uint32_t lastStepMicros = 0;
+uint32_t lastBlinkMillis = 0;
+bool ledState = false;
 
 // DCMotor object
 DCMotor motor = DCMotor();
 // DCDriver object
 // there are different types to choose from, please select the correct one
 // that matches your motor driver hardware.
-DCDriver2PWM driver = DCDriver2PWM(D5, D6);
+DCDriver2PWM driver = DCDriver2PWM(PA_15, PB_3);
 // Sensor object
 
-Encoder encoder = Encoder(D3, D2, 500);
+Encoder encoder = Encoder(PA_6, PA_5, 500); 
 // interrupt routine intialisation
 void doA(){encoder.handleA();}
 void doB(){encoder.handleB();}
 
-StepDirListener step_dir = StepDirListener(D9, D8, 1.00f/322.87);
-void onStep() { step_dir.handle(); }
+StepDirListener step_dir = StepDirListener(PA_1, PA_2, 1.00f/322.87);
+// void onStep() { step_dir.handle(); }
+void onStep() { 
+  step_dir.handle(); 
+  lastStepMicros = micros();  // record activity timestamp
+}
+
 
 // Commander object, used for serial control
 Commander commander = Commander(Serial);
 // motor control function - this is needed to link the incoming commands 
 // to the motor object
 void onMotor(char* cmd){ commander.motor(&motor, cmd); }
-
-
 
 /**
  * Setup function, in which you should intialize sensor, driver and motor,
@@ -40,12 +47,16 @@ void onMotor(char* cmd){ commander.motor(&motor, cmd); }
  */
 void setup() {
   // to use serial control we have to initialize the serial port
-  Serial.begin(115200); // init serial communication
+  //pinMode(LED_BUILTIN, OUTPUT);
+  Serial1.begin(115200); // init serial communication
   // wait for serial connection - doesn't work with all hardware setups
   // depending on your application, you may not want to wait
-  while (!Serial) {};   // wait for serial connection
+  // while (!Serial) {};   // wait for serial connection
   // enable debug output to the serial port
   SimpleFOCDebug::enable();
+
+  pinMode(LED_PIN, OUTPUT);
+  digitalWrite(LED_PIN, HIGH); // OFF initially
   
   // enable/disable quadrature mode
   encoder.quadrature = Quadrature::ON;
@@ -131,6 +142,27 @@ void loop() {
   // call commander.run() once per loop iteration, it will process incoming commands
   commander.run();
 
+  // --- LED activity indicator ---
+  uint32_t now = millis();
+  static bool active = false;
+
+  // Active if steps occurred within last 200 ms
+  if (micros() - lastStepMicros < 200000) {
+    active = true;
+  } else {
+    active = false;
+  }
+
+  // Blink LED every 500 ms while active
+  if (active && (now - lastBlinkMillis > 500)) {
+    lastBlinkMillis = now;
+    ledState = !ledState;
+    digitalWrite(LED_PIN, ledState ? LOW : HIGH); // inverted LED logic
+  }
+  else if (!active) {
+    digitalWrite(LED_PIN, HIGH); // LED off when idle
+  }
+
   // call motor.monitor() once per loop iteration, it will print the motor state
   //motor.monitor();
   //Serial.print(motor.shaft_angle);
@@ -141,4 +173,8 @@ void loop() {
   //Serial.print(encoder.getAngle());
   //Serial.print("\t");
   //Serial.println(encoder.getVelocity());
+  //digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
+  //delay(100);                      // wait for a second
+  //digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
+  //delay(100);                      // wait for a second
 }
