@@ -5,11 +5,11 @@ Duet 3 to Stratasys PDB Interface Board. Used to convert a Stratasys Prodigy ser
 
 [Additional details for this project on the Duet3D forums.](https://forum.duet3d.com/topic/37434/dueprint-with-a-duet-3-6hc-stratasys-dimension-conversion)
 
-![DuetPrint3 Block Diagram](https://github.com/user-attachments/assets/d893a41b-7536-4017-afb7-c809d2a8a8e0)
+![DuetPrint3 Block Diagram](https://github.com/user-attachments/assets/5d47679d-ae4d-43e9-b9fb-55ede325fe20)
 
-![sIMG_3466](https://github.com/user-attachments/assets/8c3cf30a-84b2-4f6a-b758-526c402385b2)
+![IMG_4153(1)](https://github.com/user-attachments/assets/9f76785b-ccd1-4d5e-85d1-df155eae5986)
 
-![DuePrint3 v1 0 0](https://github.com/user-attachments/assets/10ca4358-5615-4864-a5b6-852c5a8fc1fb)
+![DuePrint3 v1 0 0](https://github.com/user-attachments/assets/554a8643-f7b0-44d1-a4e9-6625c43385af)
 
 At present, the implementation focuses on the Dimension 1200es printers (the implementations linked above focus on the uPrint series, which is quite similar. The electronics are laid out a touch differently, meaning the layout of the new hardware must change, as well where the stepper motor wiring taps in to the existing harness). The Duet 3 Mainboard 6HC, as well as the Sammy-C21 module (natively running RepRapFirmware) interface with 17 inputs, and 11 outputs.
 ### Inputs
@@ -83,13 +83,13 @@ At present, the implementation focuses on the Dimension 1200es printers (the imp
 The 6HC directly drives the X, Y, and Z stepper motors (vs. controlling them through the Stratasys PDB). The 6HC, unlike the Duet2 (and Duex boards) does not natively have STEP/DIR pins used to emit step and direction pulses. Instead, a Sammy-C21 ([running RepRapFirmware](https://docs.duet3d.com/Duet3D_hardware/Duet_3_family/Using_the_Sammy-C21_development_board_with_Duet_3)) is used to emit step and direction pulses to a STM32F411 BlackPill, which in turn is running [SimpleDCMotor](https://github.com/simplefoc/Arduino-FOC-dcmotor) to control the extruder's closed loop DC motor.
 
 ## Materials
-[A detailed BOM can be found here](https://github.com/jcwebber93/DuePrint3/blob/main/DuePrint3%20BOM.xlsx), with the approximate cost being ~$500 (60% of this is Duet3D 6HC and Sammy-C21).
+[A detailed BOM can be found here](https://github.com/jcwebber93/DuePrint3/blob/v2.0.0/DuePrint3%20BOM.xlsx), with the approximate cost being ~$500 (60% of this is Duet3D 6HC and Sammy-C21).
 
 ## Interface Board Design
-[The KidCad project for the DuePrint3 board can be found here](https://github.com/jcwebber93/DuePrint3/tree/main/DuePrint3%20KiCad%20Project)
+[The KidCad project for the DuePrint3 board can be found here](https://github.com/jcwebber93/DuePrint3/tree/v2.0.0/DuePrint3%20KiCad%20Project)
 
 ## Wiring
-[A detailed wire list can be found here.](https://github.com/jcwebber93/DuePrint3/blob/main/DuePrint3%20Wire%20List.xlsx) Connectors & crimps for the Duet 3 6HC are supplied with the board, but are JST VH (stepper motors) and Molex KK / Wurth WR-WTB (Wurth connectors/contacts are supplied with Duet Boards). The interface board 6HC and spares header are JST PHD, and spare 5v and 12v headers are Molex Micro-3.0 series connectors & crimps. The headers for the PBD ribbon cables are Samtec EHT series headers.
+[A detailed wire list can be found here.](https://github.com/jcwebber93/DuePrint3/blob/v2.0.0/DuePrint3%20Wire%20List.xlsx) Connectors & crimps for the Duet 3 6HC are supplied with the board, but are JST VH (stepper motors) and Molex KK / Wurth WR-WTB (Wurth connectors/contacts are supplied with Duet Boards). The interface board 6HC and spares header are JST PHD, and spare 5v and 12v headers are Molex Micro-3.0 series connectors & crimps. The headers for the PBD ribbon cables are Samtec EHT series headers.
 
 ## Sammy-C21 Prep
 If using a Sammy-C21 purchased with the preloaded Duet3D bootloader, no special programming is needed. J100 needs to be unbridged, as 5V is supplied to pins 15 and 32 (V33, for 5V logic, and VCC).
@@ -99,12 +99,13 @@ If using a Sammy-C21 purchased with the preloaded Duet3D bootloader, no special 
 ## Interface Board Prep
 If the Interface Board (w/Sammy-C21) is the only CAN-FD device, aside from the Duet 3 6HC, place a 2-socket jumper on J13 as indicated to enable the CAN-FD termination resistor.
 
-<img src="https://github.com/user-attachments/assets/87da6098-6184-4fa2-a2c0-e8d032940f3f" width="700">
+<img src="https://github.com/user-attachments/assets/13e7a629-ded0-4cb1-a02a-859b08c741d1" width="700">
+
 
 J11 connects to the 6HC. J12 can be used with additional expansion boards (such as a Duet 3 SZP on the print head, which could be used as an accelerometer or for bed scanning), provided the CAN-FD bus is terminated on the additional board.
 
 ## RepRapFirmware Prep
-At present, the 6HC and Sammy-C21 are running 3.6.1. [Configuration files are located here](https://github.com/jcwebber93/DuePrint3/tree/main/Duet%203%20Configuration/System%20Directory), and [Macros are located here.](https://github.com/jcwebber93/DuePrint3/tree/main/Duet%203%20Configuration/Macros%20Directory)
+At present, the 6HC and Sammy-C21 are running 3.6.1. [Configuration files are located here](https://github.com/jcwebber93/DuePrint3/tree/v2.0.0/Duet%203%20Configuration/System%20Directory), and [Macros are located here.](https://github.com/jcwebber93/DuePrint3/tree/v2.0.0/Duet%203%20Configuration/Macros%20Directory)
 
 ## SimpleDCMotor / STM32F411 BlackPill
-[Sketch located here](https://github.com/jcwebber93/DuePrint3/tree/main). Prep your build enviornment [per the SimpleFOC documentation.](https://docs.simplefoc.com/) I used Ardiono IDE, and [added boards via](https://github.com/stm32duino/Arduino_Core_STM32/wiki/Getting-Started). I bench programmed the BlackPill, then installed into the interface board header.
+[Arduino IDE Sketch located here](https://github.com/jcwebber93/DuePrint3/tree/v2.0.0/DuePrint3_SimpleDC). Prep your build enviornment [per the SimpleFOC documentation.](https://docs.simplefoc.com/). I bench programmed the BlackPill, then installed it into the interface board header.
