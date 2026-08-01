@@ -1,1 +1,0 @@
-G1 X{global.purgecenterx} Y{global.purgecentery} F18000

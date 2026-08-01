@@ -1,4 +1,4 @@
-24763353475620782
+24768682461599153
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57260,6 +57260,13 @@ BEL_SS-6466S-A-PG1
 8
 7
 DuePrint3-Lib
+DP3EXB
+DuePrint3 MCU Module
+
+0
+32
+32
+DuePrint3-Lib
 EHT-110-01-XX-D
 2MM EJECTOR HEADER ASSEMBLY.
 
@@ -91252,6 +91259,13 @@ SMD SMT crystal
 4
 4
 SAME51_Board
+QFN-48-1EP_7x7mm_P0.5mm_EP5.2x5.2mm_ThermalVias
+UK Package; 48-Lead Plastic QFN (7mm x 7mm); (see Linear Technology QFN_48_05-08-1704.pdf)
+QFN 0.5
+0
+75
+49
+SAME51_Board
 QFN64_9x9MC_MCH
 
 ATSAME51J19A-MF 
@@ -91272,6 +91286,13 @@ ATSAME51J19A-MF
 0
 65
 65
+SAME51_Board
+SON8_DRB_TEX
+
+TCAN1044VDRBRQ1 
+0
+11
+9
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
