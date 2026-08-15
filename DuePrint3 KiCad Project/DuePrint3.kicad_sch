@@ -13290,7 +13290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150080BS75000/4489912?s=N4IgTCBcDaIIwFYAMSAcSBCBlA7MlIAugL5A"
 			(at 119.38 128.27 0)
 			(effects
 				(font
@@ -13314,6 +13314,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 119.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13485,6 +13493,22 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 149.86 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 149.86 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CRCW080510K0FKEA"
 			(at 149.86 236.22 0)
 			(effects
 				(font
@@ -13669,6 +13693,22 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 38.1 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "436500215"
+			(at 38.1 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c502d77c-0459-41ad-87df-4434ff459047")
 		)
@@ -13721,7 +13761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150080VS75000/4489924?s=N4IgTCBcDaIIwFYAMSAcSBqBlA7MlIAugL5A"
 			(at 161.29 129.54 0)
 			(effects
 				(font
@@ -13771,6 +13811,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 161.29 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14079,6 +14127,22 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 257.175 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CL21B104KCFSFNE"
+			(at 257.175 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4c34852e-c6d3-4cb3-afe8-012eedd82fd2")
 		)
@@ -14197,7 +14261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B103KAANNNC/3888092?s=N4IgTCBcDaIMIBkwEYBCyAMBmA0gQTwDli4QBdAXyA"
 			(at 200.66 179.07 0)
 			(effects
 				(font
@@ -14213,6 +14277,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 200.66 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CL21B103KAANNNC"
+			(at 200.66 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -14316,6 +14396,22 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 57.15 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 57.15 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "EHT-125-01-S-D"
 			(at 57.15 156.21 0)
 			(effects
 				(font
@@ -14774,6 +14870,22 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 40.64 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "EHT-125-01-S-D"
+			(at 40.64 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "421a3ebf-2ff5-4232-b182-1ac0ef6633a4")
 		)
@@ -14952,7 +15064,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "2 Pin Jumper"
 			(at 393.7 104.1399 0)
 			(effects
 				(font
@@ -14970,7 +15082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/QPC02SXGN-RC/2618262?s=N4IgTCBcDaIIoAUDCAGMBlAGgcQHIFoAlJEAXQF8g"
 			(at 391.16 101.6 0)
 			(effects
 				(font
@@ -14986,6 +15098,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 391.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "QPC02SXGN-RC"
+			(at 391.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15226,6 +15354,22 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 149.86 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 149.86 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CRCW080510K0FKEA"
 			(at 149.86 238.76 0)
 			(effects
 				(font
@@ -15756,7 +15900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/category/rectangular-connectors/2027?s=N4IgTCBcDaIEIEYAscC0AFAEgEQMq5AF0BfIA"
 			(at 77.47 236.22 0)
 			(effects
 				(font
@@ -15772,6 +15916,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 77.47 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "B14B-PHDSS"
+			(at 77.47 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "7"
@@ -15919,6 +16079,22 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 102.87 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CRCW08052K00FKEA"
+			(at 102.87 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fb673456-af18-4c6d-88f2-b314273941ca")
 		)
@@ -16022,6 +16198,14 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 389.89 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 389.89 217.17 0)
 			(effects
 				(font
@@ -16277,7 +16461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/amphenol-cs-fci/54601-906002WPLF/4242890"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/stewart-connector/SS-6466S-A-PG1/1642347"
 			(at 210.82 160.655 90)
 			(effects
 				(font
@@ -16328,6 +16512,22 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 210.82 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 210.82 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "SS-6466S-A-PG1"
 			(at 210.82 161.29 0)
 			(effects
 				(font
@@ -16459,6 +16659,22 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 149.86 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CRCW080510K0FKEA"
+			(at 149.86 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "64a52707-171b-406b-8879-7358622d5471")
 		)
@@ -16511,7 +16727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/panasonic-industry/erj-6enf1003v/111841"
 			(at 217.17 179.07 0)
 			(effects
 				(font
@@ -16527,6 +16743,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 217.17 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ-6ENF1003V"
+			(at 217.17 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16638,6 +16870,22 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 118.11 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CRCW08052K00FKEA"
+			(at 118.11 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cdbfc420-198c-4b7d-8df0-68c9b58197a8")
 		)
@@ -16689,7 +16937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B30B-PHDSS/926678"
 			(at 137.16 50.8 0)
 			(effects
 				(font
@@ -16705,6 +16953,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 137.16 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "B30B-PHDSS"
+			(at 137.16 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "9"
@@ -17033,6 +17297,22 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 95.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CRCW08051K00FKEA"
+			(at 95.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "da628f1a-277e-4ed3-9edb-837b3797e085")
 		)
@@ -17152,7 +17432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150080AS75000/11479384?s=N4IgTCBcDaIIwFYAMSAcSCCBlA7MlIAugL5A"
 			(at 140.97 128.27 0)
 			(effects
 				(font
@@ -17202,6 +17482,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 140.97 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17448,6 +17736,14 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 389.89 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4edf75ec-7af5-42e1-a059-91b8e272d8e4")
 		)
@@ -17554,6 +17850,22 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 149.86 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CRCW080510K0FKEA"
+			(at 149.86 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fa214d8b-345b-49cf-b183-18e3b9c260b2")
 		)
@@ -17606,7 +17918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300311121/4846825"
 			(at 151.13 171.45 0)
 			(effects
 				(font
@@ -17657,6 +17969,22 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 151.13 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 151.13 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "61300311121"
 			(at 151.13 171.45 0)
 			(effects
 				(font
@@ -17776,6 +18104,22 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 110.49 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CRCW080531K6FKEA"
+			(at 110.49 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e7b65e9a-f88d-4f94-8365-cb483ec30d31")
 		)
@@ -17876,6 +18220,22 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 25.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 25.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "EHT-110-01-S-D"
 			(at 25.4 101.6 0)
 			(effects
 				(font
@@ -18110,6 +18470,22 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 110.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CRCW08051K00FKEA"
+			(at 110.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "656cef2a-018e-47bb-95b9-bc123036e86e")
 		)
@@ -18217,6 +18593,22 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 257.175 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CL21B104KCFSFNE"
+			(at 257.175 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "341c6d3d-222e-4ad5-82a0-bcf357774b1e")
 		)
@@ -18269,7 +18661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61301611821/6137797?s=N4IgTCBcDaIGwEYDMAGBiEA4wJAXQF8g"
 			(at 403.86 148.59 0)
 			(effects
 				(font
@@ -18285,6 +18677,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 403.86 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "61301611821"
+			(at 403.86 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18506,6 +18914,22 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 227.965 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CRCW0805120RFKEA"
+			(at 227.965 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2346cd37-77d9-4af2-898d-d612ee36e80f")
 		)
@@ -18608,6 +19032,22 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 217.17 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 217.17 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CRCW080510K0FKEA"
 			(at 217.17 228.6 0)
 			(effects
 				(font
@@ -18857,6 +19297,22 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 38.1 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "436500215"
+			(at 38.1 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b1761e0b-059d-4b46-8f1a-66de1d8eadde")
 		)
@@ -18909,7 +19365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0436500315/283462?s=N4IgTCBcDaICwGYBsBWADGhBGFIC6AvkA"
 			(at 17.78 242.57 0)
 			(effects
 				(font
@@ -18960,6 +19416,22 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 17.78 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 17.78 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "436500315"
 			(at 17.78 242.57 0)
 			(effects
 				(font
@@ -19344,6 +19816,22 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 237.49 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "SN74AHCT125DR"
+			(at 237.49 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "965e1c24-278c-46a9-a14a-a75b9564097b")
 		)
@@ -19483,6 +19971,14 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 389.89 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 389.89 204.47 0)
 			(effects
 				(font
@@ -19797,6 +20293,22 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 17.78 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "436500215"
+			(at 17.78 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0d8a1cfd-87ae-4be9-afde-edb9d77d03fb")
 		)
@@ -19984,7 +20496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08052K20FKEA/1175673"
 			(at 161.29 137.16 0)
 			(effects
 				(font
@@ -20002,7 +20514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "xxRK73H1ETTP2201F"
+		(property "Part Number" "CRCW08052K20FKEA"
 			(at 161.29 137.16 0)
 			(effects
 				(font
@@ -20026,6 +20538,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 161.29 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -20130,6 +20650,22 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 102.87 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 102.87 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CRCW08051K00FKEA"
 			(at 102.87 60.96 0)
 			(effects
 				(font
@@ -20313,6 +20849,22 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 237.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "SN74AHCT125DR"
+			(at 237.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6de58d75-4656-4e3d-80d4-818560a6ff65")
 		)
@@ -20401,7 +20953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300311121/4846825"
 			(at 238.76 158.75 0)
 			(effects
 				(font
@@ -20452,6 +21004,22 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 238.76 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 238.76 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "61300311121"
 			(at 238.76 158.75 0)
 			(effects
 				(font
@@ -20639,6 +21207,22 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 110.49 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CRCW08052K00FKEA"
+			(at 110.49 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "35969c29-b555-4e29-9edf-9ee241d648d0")
 		)
@@ -20691,7 +21275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61301611821/6137797?s=N4IgTCBcDaIGwEYDMAGBiEA4wJAXQF8g"
 			(at 394.97 148.59 0)
 			(effects
 				(font
@@ -20707,6 +21291,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 394.97 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "61301611821"
+			(at 394.97 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -20800,7 +21400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/amphenol-cs-fci/54601-906002WPLF/4242890"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/stewart-connector/SS-6466S-A-PG1/1642347"
 			(at 210.82 136.525 90)
 			(effects
 				(font
@@ -20851,6 +21451,22 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 210.82 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 210.82 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "SS-6466S-A-PG1"
 			(at 210.82 137.16 0)
 			(effects
 				(font
@@ -21185,6 +21801,14 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 401.32 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "16c9357a-c9ed-4a90-bbf4-cd9281b8321e")
 		)
@@ -21293,6 +21917,14 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 401.32 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "45f10935-f044-4582-b821-8e8cc7aed54a")
 		)
@@ -21341,7 +21973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08052K20FKEA/1175673"
 			(at 140.97 135.89 0)
 			(effects
 				(font
@@ -21359,7 +21991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "xxRK73H1ETTP2201F"
+		(property "Part Number" "CRCW08052K20FKEA"
 			(at 140.97 135.89 0)
 			(effects
 				(font
@@ -21383,6 +22015,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 140.97 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -21560,6 +22200,22 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 100.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CRCW08053K74FKEA"
+			(at 100.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c8ac2850-ca97-4510-9b6c-3aaef6ad88dc")
 		)
@@ -21662,6 +22318,22 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 149.86 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 149.86 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CRCW080510K0FKEA"
 			(at 149.86 246.38 0)
 			(effects
 				(font
@@ -21801,6 +22473,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 194.31 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "DP3EXB"
+			(at 194.31 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "11"
@@ -22268,6 +22956,22 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 119.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CRCW080510K0FKEA"
+			(at 119.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "23ee1b2b-17df-427d-b274-29e88d4fa494")
 		)
@@ -22302,7 +23006,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "2 Pin Jumper"
 			(at 393.7 96.5199 0)
 			(effects
 				(font
@@ -22320,7 +23024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/QPC02SXGN-RC/2618262?s=N4IgTCBcDaIIoAUDCAGMBlAGgcQHIFoAlJEAXQF8g"
 			(at 391.16 93.98 0)
 			(effects
 				(font
@@ -22336,6 +23040,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 391.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "QPC02SXGN-RC"
+			(at 391.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -22646,6 +23366,22 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 219.71 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CRCW080510K0FKEA"
+			(at 219.71 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0f9c9092-23aa-4d1f-a3ce-8272a270f41f")
 		)
@@ -22881,6 +23617,22 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 17.78 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 17.78 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "436500215"
 			(at 17.78 232.41 0)
 			(effects
 				(font
