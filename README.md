@@ -84,7 +84,7 @@ At present, the implementation focuses on the Dimension 1200es printers (the imp
 The 6HC directly drives the X, Y, and Z stepper motors (vs. controlling them through the Stratasys PDB). The 6HC, unlike the Duet2 (and Duex boards) does not natively have STEP/DIR pins used to emit step and direction pulses. Instead, a DP3EXB expansion board running a fork of Duet3Expansion is used to natively control the extruder's closed loop DC motor. The extruder can be tuned via the ClosedLoopTuning plugin for DWC, with the motor parameters being configured in Config.g. RRF is able to monitor the motor for position errors.
 
 ## Materials
-[A detailed BOM can be found here](https://github.com/jcwebber93/DuePrint3/blob/v2.5.0/DuePrint3%20BOM.xlsx), with the approximate cost being ~$500 (60% of this is Duet3D 6HC and Sammy-C21).
+[A detailed BOM can be found here](https://github.com/jcwebber93/DuePrint3/blob/v2.5.0/DuePrint3%20BOM.xlsx), with the approximate cost being ~$660 (60% of this is Duet3D 6HC, DP3EXB Module, and DuetScreen).
 
 ## Interface Board Design
 [The KidCad project for the DuePrint3 board can be found here](https://github.com/jcwebber93/DuePrint3/tree/v2.5.0/DuePrint3%20KiCad%20Project)
